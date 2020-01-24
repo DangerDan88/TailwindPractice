@@ -1,0 +1,25 @@
+{
+  "name": "TailwindPractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+"build:css": "tailwind build src/style.css -o build/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DangerDan88/TailwindPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DangerDan88/TailwindPractice/issues"
+  },
+  "homepage": "https://github.com/DangerDan88/TailwindPractice#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.1.4"
+  }
+}
