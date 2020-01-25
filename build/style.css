@@ -627,6 +627,55 @@ video {
   }
 }
 
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.125rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.btn-indigo {
+  background-color: #667eea;
+  color: #fff;
+}
+
+.btn-gray {
+  background-color: #cbd5e0;
+  color: #2d3748;
+}
+
+.btn-indigo:hover {
+  background-color: #7f9cf5;
+}
+
+.btn-indigo:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.btn-indigo:active {
+  background-color: #5a67d8;
+}
+
+.btn-gray:hover {
+  background-color: #cbd5e0;
+}
+
+.btn-gray:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.btn-gray:active {
+  background-color: #718096;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

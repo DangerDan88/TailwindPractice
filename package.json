@@ -4,7 +4,8 @@
   "description": "",
   "main": "postcss.config.js",
   "scripts": {
-"build:css": "tailwind build src/style.css -o build/style.css"
+"build:css": "tailwind build src/style.css -o build/style.css",
+"watch": "tailwind build src/style.css -o build/style.css --watch"
   },
   "repository": {
     "type": "git",

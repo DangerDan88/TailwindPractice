@@ -2,4 +2,39 @@
 
 @tailwind components;
 
+.btn {
+  @apply inline-block   uppercase tracking-wide px-10 py-3 rounded-sm  font-semibold text-sm;
+}
+
+.btn-indigo {
+  @apply bg-indigo-500  text-white;
+}
+
+.btn-gray {
+  @apply bg-gray-400  text-gray-800;
+}
+.btn-indigo:hover {
+  @apply bg-indigo-400;
+}
+
+.btn-indigo:focus {
+  @apply outline-none shadow-outline;
+}
+
+.btn-indigo:active {
+  @apply bg-indigo-600;
+}
+
+.btn-gray:hover {
+  @apply bg-gray-400;
+}
+
+.btn-gray:focus {
+  @apply outline-none shadow-outline;
+}
+
+.btn-gray:active {
+  @apply bg-gray-600;
+}
+
 @tailwind utilities;
